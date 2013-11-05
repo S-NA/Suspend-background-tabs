@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- This Source Code is subject to the terms of the Mozilla Public License
+   - version 2.0 (the "License"). You can obtain a copy of the License at
+   - http://mozilla.org/MPL/2.0/. -->
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>{1474867A-4655-11E3-BC1F-0DB06188709B}</em:id>
+		<em:version>0.0.1a</em:version>
+		<em:name>Suspend background tabs</em:name>
+		<em:description>Delays periodical actions in background tabs until they are selected again, saves CPU time.</em:description>
+		<em:creator>Wladimir Palant</em:creator>
+		<em:developer>Kami Mikazuki</em:developer>
+		<em:contributor>Christian Sonne</em:contributor>
+		<em:homepageURL>https://addons.mozilla.org/addon/suspend-background-tabs/</em:homepageURL>
+		<em:type>2</em:type>
+		<em:bootstrap>true</em:bootstrap>
+		<em:optionsURL>chrome://suspendbackgroundtabs/content/settings.xul</em:optionsURL>
+		<em:optionsType>2</em:optionsType>
+		<em:localized>
+			<Description>
+				<em:locale>en-US</em:locale>
+				<em:creator>Wladimir Palant</em:creator>
+				<em:developer>Kami Mikazuki</em:developer>
+				<em:contributor>Christian Sonne</em:contributor>
+				<em:name>Suspend background tabs</em:name>
+				<em:description>Delays periodical actions in background tabs until they are selected again, saves CPU time.</em:description>
+				<em:homepageURL>https://addons.mozilla.org/addon/suspend-background-tabs/</em:homepageURL>
+			</Description>
+		</em:localized>
+		<em:targetApplication>
+			<Description>
+				<!-- firefox -->
+				<em:id>{1474867A-4655-11E3-BC1F-0DB06188709B}</em:id>
+				<em:minVersion>8.0</em:minVersion>
+				<em:maxVersion>28.0a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		<em:targetApplication>
+			<Description>
+				<!-- seamonkey -->
+				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+				<em:minVersion>2.5</em:minVersion>
+				<em:maxVersion>2.12a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+</RDF>
