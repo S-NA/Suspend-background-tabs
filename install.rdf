@@ -30,9 +30,9 @@
 		<em:targetApplication>
 			<Description>
 				<!-- firefox -->
-				<em:id>{1474867A-4655-11E3-BC1F-0DB06188709B}</em:id>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>8.0</em:minVersion>
-				<em:maxVersion>28.0a1</em:maxVersion>
+				<em:maxVersion>28.0*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		<em:targetApplication>
