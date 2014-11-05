@@ -1,4 +1,6 @@
 Suspend-background-tabs
 =======================
 
-This is Wladimir Palant's original extention used to be on the AMO, but he suddenly removed it I simply compiled everything and made sure it was working an uploaded it to GitHub. I will be added new futures to this add-on soon so stick around.
+This is Wladimir Palant's original extention, which used to be on the AMO, but it was suddenly removed. I simply unpacked the XPI and made sure it was working an uploaded it to GitHub. I plan to hack on the code.
+
+The current objective is to create a functioning blacklist. 
