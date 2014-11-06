@@ -61,6 +61,7 @@ function require(module) {
 				"songbird@songbirdnest.com": "songbird",
 				"prism@developer.mozilla.org": "prism",
 				"{3550f703-e582-4d05-9a08-453d09bdfdc6}": "thunderbird"
+				"{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}": "palemoon" // Pale Moon breaks it, it has to be "palemoom" not sure why...
 			};
 			let appID = Services.appinfo.ID;
 			scopes[module] = {};
