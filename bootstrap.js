@@ -20,7 +20,7 @@ function startup(params, reason) {
 		Components.manager.addBootstrappedManifestLocation(params.installPath);
 		onShutdown.add(function() Components.manager.removeBootstrappedManifestLocation(params.installPath));
 	}
-	require("lib\main");
+	require("modules/main"); // I probably broke something.
 }
 
 function shutdown(params, reason) {
