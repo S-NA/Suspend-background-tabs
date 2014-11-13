@@ -27,7 +27,7 @@ function init() {
 			defineProperty(pref, false, getter, setter);
 		}
 	};
-	Services.scriptloader.loadSubScript(addonRoot + "defaults/preferences/prefs.js", scope);
+	Services.scriptloader.loadSubScript(addonRoot + "defaults/preferences/prefs.js", scope); /* Will change structure later */
 	// Add preference change observer
 	try {
 		branch.QueryInterface(Ci.nsIPrefBranch2).addObserver("", Prefs, true);
